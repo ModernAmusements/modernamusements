@@ -27,12 +27,14 @@ body,
 }
 
 @font-face {
-  font-family: "Favorit-Light";
+  font-family: ".";
+  src: url("favorit-light.eot");
+  src: url("favorit-light.eot?#iefix") format("embedded-opentype"),
+    url("favorit-light.woff2") format("woff2"),
+    url("favorit-light.woff") format("woff"),
+    url("favorit-light.ttf") format("truetype"),
+    url("favorit-light.svg#.") format("svg");
   font-weight: 300;
-  src: url("/fonts/Favorit-Light.eot");
-  src: url("/fonts/Favorit-Light.eot#iefix") format("embedded-opentype"),
-    url("/fonts/Favorit-Light.woff2") format("woff2");
-  font-weight: normal;
   font-style: normal;
 }
 
