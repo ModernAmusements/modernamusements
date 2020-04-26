@@ -440,6 +440,7 @@ a.normal-link:hover:after {
 
 .btn-close,
 .btn-close-3D {
+  z-index: 250;
   float: right;
   height: 50px;
   width: 50px;
@@ -458,10 +459,6 @@ a.normal-link:hover:after {
   stroke: #dcec00;
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
-}
-
-.btn-close-3D {
-  z-index: 250;
 }
 
 .btn-close-y {
