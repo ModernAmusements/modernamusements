@@ -1,0 +1,308 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 6403,
+      "max": [
+        1.1400229930877686,
+        1.7136926651000977,
+        10.354318618774414
+      ],
+      "min": [
+        -1.3185974359512329,
+        -0.85745429992675781,
+        0.088876724243164062
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 76836,
+      "componentType": 5126,
+      "count": 6403,
+      "max": [
+        0.99998748302459717,
+        0.99952429533004761,
+        0.999980628490448
+      ],
+      "min": [
+        -0.99982178211212158,
+        -0.99999493360519409,
+        -0.99948722124099731
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 6403,
+      "max": [
+        1,
+        0.89853459596633911,
+        1,
+        -1
+      ],
+      "min": [
+        -0.99999988079071045,
+        -0.90775465965270996,
+        -1,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6403,
+      "max": [
+        0.99950385093688965,
+        0.83935534954071045
+      ],
+      "min": [
+        0.00048828125,
+        0.00056596531067043543
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 51224,
+      "componentType": 5126,
+      "count": 6403,
+      "max": [
+        0.99950385093688965,
+        0.83935534954071045
+      ],
+      "min": [
+        0.00048828125,
+        0.00056596531067043543
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 30000,
+      "max": [
+        6402
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "pjotr.van.schothorst (https://sketchfab.com/pjotr.van.schothorst)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bronze-statue-of-man-and-woman-7ea7954fc261446e8c1a7dd0312b83eb",
+      "title": "Bronze statue of man and woman"
+    },
+    "generator": "Sketchfab-8.33.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 120000,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 102448,
+      "byteOffset": 120000,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 153672,
+      "byteOffset": 222448,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 102448,
+      "byteOffset": 376120,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 478568,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Beeld_Aled_220420_Model_8_u1_v1_baseColor.png"
+    },
+    {
+      "uri": "textures/Beeld_Aled_220420_Model_8_u1_v1_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Beeld_Aled_220420_Model_8_u1_v1",
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.78610496296926879,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.98318207169492566
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Beeld_Aled_220420_Model_8_Beeld_Aled_220420_Model_8_u1_v1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.17637120187282562,
+        0,
+        0,
+        0,
+        0,
+        -0.17637120187282562,
+        -4.9961893368762045e-17,
+        0,
+        0,
+        4.9961893368762045e-17,
+        -0.17637120187282562,
+        0,
+        0,
+        -0.85624676942825317,
+        -10.443192481994629,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Beeld_Aled_220420_Model_8.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "Beeld_Aled_220420_Model_8"
+    },
+    {
+      "mesh": 0,
+      "name": "Beeld_Aled_220420_Model_8_Beeld_Aled_220420_Model_8_u1_v1_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+

@@ -1,0 +1,19 @@
+{
+  "name": "Portfolio-2020 Shady Tawfik",
+  "short_name": "P.2020-S.T",
+  "icons": [
+    {
+      "src": "/tab-icon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/tab-icon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
