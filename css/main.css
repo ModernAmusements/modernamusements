@@ -205,7 +205,7 @@ li {
 }
 
 .demo model-viewer {
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 
@@ -441,7 +441,6 @@ a.normal-link:hover:after {
 }
 
 .btn-close {
-  z-index: 200;
   float: right;
   height: 50px;
   width: 50px;
@@ -456,6 +455,25 @@ a.normal-link:hover:after {
 }
 
 .btn-close:hover {
+  stroke: #dcec00;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.btn-close-3d {
+  float: right;
+  height: 50px;
+  width: 50px;
+  right: 50.5%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border: none;
+  fill: none;
+  stroke: #aaa;
+  stroke-width: 1.8949;
+}
+
+.btn-close-3d:hover {
   stroke: #dcec00;
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
