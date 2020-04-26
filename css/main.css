@@ -8,12 +8,12 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "favorit-light";
+  font-family: "favoritlight";
   font-size: 10px;
   scroll-behavior: smooth;
 }
 body {
-  font-family: "favorit-light";
+  font-family: "favoritlight";
   background: #0c0c0c;
   color: #aaa;
   scroll-behavior: smooth;
@@ -28,14 +28,14 @@ body,
 }
 
 @font-face {
-  font-family: "favorit-light";
-  src: url("/fonts/favorit-light/favorit-light.eot");
-  src: url("/fonts/favorit-light/favorit-light.eot?#iefix")
+  font-family: "favoritlight";
+  src: url("/fonts/favoritlight/favoritlight.eot");
+  src: url("/fonts/favoritlight/favoritlight.eot?#iefix")
       format("embedded-opentype"),
-    url("/fonts/favorit-light/favorit-light.woff2") format("woff2"),
-    url("/fonts/favorit-light/favorit-light.woff") format("woff"),
-    url("/fonts/favorit-light/favorit-light.ttf") format("truetype"),
-    url("/fonts/favorit-light/favorit-light.svg#.") format("svg");
+    url("/fonts/favoritlight/favoritlight.woff2") format("woff2"),
+    url("/fonts/favoritlight/favoritlight.woff") format("woff"),
+    url("/fonts/favoritlight/favoritlight.ttf") format("truetype"),
+    url("/fonts/favoritlight/favoritlight.svg#.") format("svg");
   font-weight: 300;
   font-style: normal;
 }
@@ -134,7 +134,7 @@ h1 {
 }
 
 .text-l {
-  font-family: "favorit-light";
+  font-family: "favoritlight";
   font-size: 9vw;
   line-height: 8vw;
   letter-spacing: -0.9vw;
@@ -142,38 +142,38 @@ h1 {
   line-height: 9vw;
 }
 .text-xl {
-  font-family: "favorit-light";
+  font-family: "favoritlight";
   font-size: 18vw;
   line-height: 18vw;
 }
 
 .text-subheadline {
-  font-family: "favorit-light";
+  font-family: "favoritlight";
   font-size: 3.8vw;
   line-height: 3.5vw;
   letter-spacing: -0.2vw;
 }
 .text-m {
-  font-family: "favorit-light";
+  font-family: "favoritlight";
   font-size: 5vw;
   line-height: 4.5vw;
   letter-spacing: -0.4vw;
 }
 
 .text-paragraph {
-  font-family: "favorit-light";
+  font-family: "favoritlight";
   font-size: 4vw;
   line-height: 3.5vw;
   letter-spacing: -0.2vw;
 }
 
 .text-m hr {
-  font-family: "favorit-light";
+  font-family: "favoritlight";
   height: 4.5vw;
 }
 
 li {
-  font-family: "favorit-light";
+  font-family: "favoritlight";
   list-style-type: none;
   font-size: 3.2vw;
   line-height: 3.4vw;
@@ -182,14 +182,14 @@ li {
 }
 
 .text-s {
-  font-family: "favorit-light";
+  font-family: "favoritlight";
   font-size: 2.4vw;
   line-height: 2.4vw;
   letter-spacing: -0.05vw;
 }
 
 .text-xs {
-  font-family: "favorit-light";
+  font-family: "favoritlight";
   font-size: 1.4vw;
   line-height: 1.4vw;
   letter-spacing: -0.005vw;
