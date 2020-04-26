@@ -132,6 +132,8 @@ h1 {
 }
 
 .text-l {
+  font-family: "favorit-light";
+
   font-size: 9vw;
   line-height: 8vw;
   letter-spacing: -0.9vw;
@@ -139,22 +141,30 @@ h1 {
   line-height: 9vw;
 }
 .text-xl {
+  font-family: "favorit-light";
+
   font-size: 18vw;
   line-height: 18vw;
 }
 
 .text-subheadline {
+  font-family: "favorit-light";
+
   font-size: 3.8vw;
   line-height: 3.5vw;
   letter-spacing: -0.2vw;
 }
 .text-m {
+  font-family: "favorit-light";
+
   font-size: 5vw;
   line-height: 4.5vw;
   letter-spacing: -0.4vw;
 }
 
 .text-paragraph {
+  font-family: "favorit-light";
+
   font-size: 4vw;
   line-height: 3.5vw;
   letter-spacing: -0.2vw;
@@ -188,12 +198,16 @@ li {
 }
 
 .text-s {
+  font-family: "favorit-light";
+
   font-size: 2.4vw;
   line-height: 2.4vw;
   letter-spacing: -0.05vw;
 }
 
 .text-xs {
+  font-family: "favorit-light";
+
   font-size: 1.4vw;
   line-height: 1.4vw;
   letter-spacing: -0.005vw;
