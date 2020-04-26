@@ -29,13 +29,13 @@ body,
 
 @font-face {
   font-family: "favorit-light";
-  src: url("/content/fonts/favorit-light/favorit-light.eot");
-  src: url("/content/fonts/favorit-light/favorit-light.eot?#iefix")
+  src: url("/fonts/favorit-light/favorit-light.eot");
+  src: url("/fonts/favorit-light/favorit-light.eot?#iefix")
       format("embedded-opentype"),
-    url("/content/fonts/favorit-light/favorit-light.woff2") format("woff2"),
-    url("/content/fonts/favorit-light/favorit-light.woff") format("woff"),
-    url("/content/fonts/favorit-light/favorit-light.ttf") format("truetype"),
-    url("/content/fonts/favorit-light/favorit-light.svg#.") format("svg");
+    url("/fonts/favorit-light/favorit-light.woff2") format("woff2"),
+    url("/fonts/favorit-light/favorit-light.woff") format("woff"),
+    url("/fonts/favorit-light/favorit-light.ttf") format("truetype"),
+    url("/fonts/favorit-light/favorit-light.svg#.") format("svg");
   font-weight: 300;
   font-style: normal;
 }
