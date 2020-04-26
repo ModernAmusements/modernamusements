@@ -484,7 +484,7 @@ a.normal-link:hover:after {
 }
 
 .btn-close-g {
-  z-index: 500;
+  z-index: 1;
   float: right;
   height: 50px;
   width: 50px;
@@ -753,7 +753,7 @@ hr {
   top: 50%;
   width: auto;
   height: auto;
-  z-index: -100;
+  z-index: -1;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
