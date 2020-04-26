@@ -192,7 +192,9 @@ li {
   position: sticky;
   top: 0;
   */
+
   height: 100vh;
+  z-index: 50;
   /*
   flex: 1;
   display: flex;
