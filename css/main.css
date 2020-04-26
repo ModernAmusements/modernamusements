@@ -438,7 +438,8 @@ a.normal-link:hover:after {
   transition: all 0.4s;
 }
 
-.btn-close {
+.btn-close,
+.btn-close-3D {
   float: right;
   height: 50px;
   width: 50px;
@@ -452,10 +453,15 @@ a.normal-link:hover:after {
   stroke-width: 1.8949;
 }
 
-.btn-close:hover {
+.btn-close,
+.btn-close-3D:hover {
   stroke: #dcec00;
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
+}
+
+.btn-close-3D {
+  z-index: 250;
 }
 
 .btn-close-y {
