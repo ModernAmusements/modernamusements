@@ -36,8 +36,6 @@ body,
   font-style: normal;
 }
 
-
-
 @font-face {
   font-family: "Ogg-Roman";
   src: url("/fonts/Ogg-Roman.eot");
@@ -159,7 +157,6 @@ h1 {
   line-height: 3.5vw;
   letter-spacing: -0.2vw;
 }
-
 
 .text-m hr {
   height: 4.5vw;
@@ -487,6 +484,7 @@ a.normal-link:hover:after {
 }
 
 .btn-close-g {
+  z-index: 500;
   float: right;
   height: 50px;
   width: 50px;
@@ -1120,10 +1118,6 @@ body.database ol li span em {
   }
   a.normal-link:hover {
     border-bottom: solid 1px transparent !important;
-  }
-  .btn-close,
-  .btn-close-y {
-    zoom: 0.7;
   }
 }
 @media (any-pointer: coarse) {
