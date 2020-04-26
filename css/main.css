@@ -14,7 +14,7 @@ html {
 body {
   background: #0c0c0c;
   color: #aaa;
-  font-family: "Favorit-Light";
+  font-family: "favorit-light";
   scroll-behavior: smooth;
 }
 
@@ -27,13 +27,14 @@ body,
 }
 
 @font-face {
-  font-family: ".";
-  src: url("favorit-light.eot");
-  src: url("favorit-light.eot?#iefix") format("embedded-opentype"),
-    url("favorit-light.woff2") format("woff2"),
-    url("favorit-light.woff") format("woff"),
-    url("favorit-light.ttf") format("truetype"),
-    url("favorit-light.svg#.") format("svg");
+  font-family: "favorit-light";
+  src: url("/fonts/f-light/favorit-light.eot");
+  src: url("/fonts/f-light/favorit-light.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/f-light/favorit-light.woff2") format("woff2"),
+    url("/fonts/f-light/favorit-light.woff") format("woff"),
+    url("/fonts/f-light/favorit-light.ttf") format("truetype"),
+    url("/fonts/f-light/favorit-light.svg#.") format("svg");
   font-weight: 300;
   font-style: normal;
 }
