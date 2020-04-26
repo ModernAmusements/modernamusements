@@ -14,7 +14,6 @@ html {
 body {
   background: #0c0c0c;
   color: #aaa;
-  font-family: "favorit-light";
   scroll-behavior: smooth;
 }
 
@@ -133,6 +132,7 @@ h1 {
 }
 
 .text-l {
+  font-family: "favorit-light";
   font-size: 9vw;
   line-height: 8vw;
   letter-spacing: -0.9vw;
@@ -140,47 +140,38 @@ h1 {
   line-height: 9vw;
 }
 .text-xl {
+  font-family: "favorit-light";
   font-size: 18vw;
   line-height: 18vw;
 }
 
 .text-subheadline {
+  font-family: "favorit-light";
   font-size: 3.8vw;
   line-height: 3.5vw;
   letter-spacing: -0.2vw;
 }
 .text-m {
+  font-family: "favorit-light";
   font-size: 5vw;
   line-height: 4.5vw;
   letter-spacing: -0.4vw;
 }
 
 .text-paragraph {
+  font-family: "favorit-light";
   font-size: 4vw;
   line-height: 3.5vw;
   letter-spacing: -0.2vw;
 }
 
-.text-l-regular {
-  word-wrap: normal;
-  font-family: "favorit_regular";
-  letter-spacing: -0.9vw;
-  font-size: 14vw;
-  line-height: 8.6vw;
-}
-
-.text-m-regular {
-  font-family: "favorit_regular";
-  font-size: 7.9vw;
-  line-height: 6vw;
-  letter-spacing: -0.3vw;
-}
-
 .text-m hr {
+  font-family: "favorit-light";
   height: 4.5vw;
 }
 
 li {
+  font-family: "favorit-light";
   list-style-type: none;
   font-size: 3.2vw;
   line-height: 3.4vw;
@@ -189,12 +180,14 @@ li {
 }
 
 .text-s {
+  font-family: "favorit-light";
   font-size: 2.4vw;
   line-height: 2.4vw;
   letter-spacing: -0.05vw;
 }
 
 .text-xs {
+  font-family: "favorit-light";
   font-size: 1.4vw;
   line-height: 1.4vw;
   letter-spacing: -0.005vw;
