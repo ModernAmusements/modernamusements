@@ -1011,16 +1011,13 @@ body.database ol li span em {
     height: auto;
   }
   .demo model-viewer {
-    position: relative;
     padding: 5%;
   }
   .col-left .box {
     height: auto;
     display: none;
   }
-  .btn-close {
-    position: relative;
-  }
+  
 
   .btn-close,
   .btn-close-y {
@@ -1045,7 +1042,7 @@ body.database ol li span em {
   .text-xs {
     font-size: 5vw;
     line-height: 4.5vw;
-    letter-spacing: -0.2vw;
+    letter-spacing: -0.3vw;
   }
   .text-s hr {
     height: 4.5vw;
