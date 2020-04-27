@@ -204,7 +204,8 @@ li {
 }
 
 .demo model-viewer {
-  width: auto;
+  padding: 5%;
+  width: 100%;
   height: 100%;
 }
 
