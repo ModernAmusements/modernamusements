@@ -137,3 +137,6 @@ function myFunction() {
     elmnt.scrollTop = 0;
 }
 
+$(document).ready(function () {
+    $('.materialboxed').materialbox();
+});

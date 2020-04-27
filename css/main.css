@@ -890,6 +890,11 @@ input:focus {
 .form-button:focus {
   outline: none;
 }
+
+.materialboxed {
+  cursor: url("/images/plus.svg") 10 10, auto !important;
+}
+
 body.database strong {
   padding: 40px;
   display: block;
@@ -1010,12 +1015,11 @@ body.database ol li span em {
     position: static;
     height: auto;
   }
-  
+
   .col-left .box {
     height: auto;
     display: none;
   }
-  
 
   .btn-close,
   .btn-close-y {
