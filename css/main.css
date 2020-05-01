@@ -14,7 +14,7 @@ html {
 body {
   background: #0c0c0c;
   color: #aaa;
-  font-family: "Favorit-Light";
+  font-family: "Modor";
   scroll-behavior: smooth;
 }
 
@@ -26,87 +26,127 @@ body,
   height: 100%;
 }
 
+/* 
+  TYPO
+*/
+
 @font-face {
-  font-family: "Favorit-Light";
-  font-weight: 300;
-  src: url("/fonts/Favorit-Light.eot");
-  src: url("/fonts/Favorit-Light.eot#iefix") format("embedded-opentype"),
-    url("/fonts/Favorit-Light.woff2") format("woff2");
+  font-family: "Modor";
+  src: url("fonts/Modor-Regular/Modor-Regular.eot");
+  src: url("fonts/Modor-Regular/Modor-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Modor-Regular/Modor-Regular.woff2") format("woff2"),
+    url("fonts/Modor-Regular/Modor-Regular.woff") format("woff"),
+    url("fonts/Modor-Regular/Modor-Regular.ttf") format("truetype"),
+    url("fonts/Modor-Regular/Modor-Regular.svg#Modor-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Ogg-Roman";
-  src: url("/fonts/Ogg-Roman.eot");
-  src: url("/fonts/Ogg-Roman.eot?#iefix") format("embedded-opentype"),
-    url("/fonts/Ogg-Roman.svg#Ogg-Roman") format("svg"),
-    url("/fonts/Ogg-Roman.ttf") format("truetype"),
-    url("/fonts/Ogg-Roman.woff") format("woff"),
-    url("/fonts/Ogg-Roman.woff2") format("woff2");
+  font-family: "Genesis";
+  src: url("fonts/Genesis-Regular/Genesis-Regular.eot");
+  src: url("fonts/Genesis-Regular/Genesis-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Genesis-Regular/Genesis-Regular.woff2") format("woff2"),
+    url("fonts/Genesis-Regular/Genesis-Regular.woff") format("woff"),
+    url("fonts/Genesis-Regular/Genesis-Regular.ttf") format("truetype"),
+    url("fonts/Genesis-Regular/Genesis-Regular.svg#Genesis-Regular")
+      format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "OggLore-Italic";
-  src: url("/fonts/OggLore-Italic.eot");
-  src: url("/fonts/OggLore-Italic.eot?#iefix") format("embedded-opentype"),
-    url("/fonts/OggLore-Italic.svg#OggLore-Italic") format("svg"),
-    url("/fonts/OggLore-Italic.ttf") format("truetype"),
-    url("/fonts/OggLore-Italic.woff") format("woff"),
-    url("/fonts/OggLore-Italic.woff2") format("woff2");
+  font-family: "Signal";
+  src: url("fonts/Signal-Regular/Signal-Regular.eot");
+  src: url("fonts/Signal-Regular/Signal-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Signal-Regular/Signal-Regular.woff2") format("woff2"),
+    url("fonts/Signal-Regular/Signal-Regular.woff") format("woff"),
+    url("fonts/Signal-Regular/Signal-Regular.ttf") format("truetype"),
+    url("fonts/Signal-Regular/Signal-Regular.svg#Signal-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 /* 
-  TYPO
+  TYPO-Styles
 */
 
-.text-xl-ogg {
-  word-wrap: break-word;
-  font-family: "Ogg-Roman";
-  font-size: 14vw;
-  line-height: 8vw;
-  letter-spacing: -0.9vw;
+/* 
+  Genesis
+*/
+
+.text-l-genesis {
+  font-family: "Genesis";
+  font-size: 11.5vw;
+  line-height: 9vw;
+  letter-spacing: -1.4vw;
 }
 
-.text-l-ogg {
-  word-wrap: normal;
-  font-family: "Ogg-Roman";
-  font-size: 12vw;
-  line-height: 8vw;
-  letter-spacing: -0.2vw;
-}
-
-.text-m-ogg {
-  font-family: "Ogg-Roman";
-  font-size: 5vw;
-  line-height: 4.5vw;
-  letter-spacing: -0.4vw;
-}
-
-.text-s-ogg {
-  font-family: "Ogg-Roman";
-  font-size: 2.4vw;
-  line-height: 2.4vw;
-  letter-spacing: -0.05vw;
-}
-
-.text-l-ogg-italic {
-  word-wrap: initial;
-  font-family: "OggLore-Italic";
-  font-size: 12vw;
-  line-height: 11vw;
-  letter-spacing: -0.9vw;
-}
-
-.text-m-ogg-italic {
-  font-family: "OggLore-Italic";
+.text-m-genesis {
+  font-family: "Genesis";
   font-size: 11vw;
   line-height: 8vw;
   letter-spacing: -0.4vw;
+}
+
+/* 
+  Mordor
+*/
+
+.text-l {
+  font-size: 9vw;
+  line-height: 8vw;
+  letter-spacing: -0.9vw;
+  font-size: 11vw;
+  line-height: 9vw;
+}
+
+.text-subheadline {
+  font-size: 3.8vw;
+  line-height: 3.5vw;
+  letter-spacing: -0.1vw;
+}
+
+.text-paragraph {
+  font-size: 4vw;
+  line-height: 3.5vw;
+  letter-spacing: -0.02vw;
+}
+
+.text-m hr {
+  height: 4.5vw;
+}
+
+/* 
+  Signal
+*/
+
+.text-s {
+  font-family: Signal;
+  font-size: 2.2vw;
+  line-height: 2vw;
+  letter-spacing: -0.05vw;
+}
+
+.text-xs {
+  font-family: Signal;
+  font-size: 1.6vw;
+  line-height: 1.4vw;
+  letter-spacing: -0.005vw;
+}
+
+.text-m {
+  font-family: Signal;
+  font-size: 4vw;
+  line-height: 4.5vw;
+  letter-spacing: -0.1vw;
+}
+
+.text-s hr {
+  height: 2.4vw;
 }
 
 p {
@@ -129,57 +169,19 @@ h1 {
   letter-spacing: -0.2vw;
 }
 
-.text-l {
-  font-size: 9vw;
-  line-height: 8vw;
-  letter-spacing: -0.9vw;
-  font-size: 11vw;
-  line-height: 9vw;
-}
-.text-xl {
-  font-size: 18vw;
-  line-height: 18vw;
-}
-
-.text-subheadline {
-  font-size: 3.8vw;
-  line-height: 3.5vw;
-  letter-spacing: -0.2vw;
-}
-.text-m {
-  font-size: 5vw;
-  line-height: 4.5vw;
-  letter-spacing: -0.4vw;
-}
-
-.text-paragraph {
-  font-size: 4vw;
-  line-height: 3.5vw;
-  letter-spacing: -0.2vw;
-}
-
-.text-m hr {
-  height: 4.5vw;
-}
-
 li {
   list-style-type: none;
-  font-size: 3.2vw;
+  font-size: 2vw;
   line-height: 3.4vw;
   letter-spacing: -0.05vw;
   margin: 30px 0 5px 0;
 }
 
-.text-s {
-  font-size: 2.4vw;
-  line-height: 2.4vw;
+ul {
+  list-style-type: none;
+  font-size: 2.3vw;
+  line-height: 3.4vw;
   letter-spacing: -0.05vw;
-}
-
-.text-xs {
-  font-size: 1.4vw;
-  line-height: 1.4vw;
-  letter-spacing: -0.005vw;
 }
 
 /* 
@@ -206,10 +208,6 @@ li {
 .demo model-viewer {
   width: 100%;
   height: 100%;
-}
-
-.text-s hr {
-  height: 2.4vw;
 }
 
 .teaser a,
@@ -242,6 +240,7 @@ li {
   background: inherit;
 }
 #main a {
+  font-family: Signal;
   text-decoration: none;
   display: inline-block;
   color: #aaa;
@@ -318,43 +317,6 @@ a.normal-link:hover:after {
   display: block;
 }
 
-.teaser {
-  position: relative;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
-  z-index: 200;
-  box-sizing: border-box;
-}
-.teaser a {
-  text-decoration: none;
-  color: #aaa;
-}
-.teaser-left {
-  width: 50%;
-  float: left;
-  height: 100%;
-  position: relative;
-}
-.teaser-right {
-  width: 50%;
-  float: right;
-  height: 100%;
-  position: relative;
-}
-.teaser-city {
-  padding: 15px;
-}
-.teaser-date {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 15px;
-}
 /* Zeichnet jeden markierten Text gelb auf rotem Hintergrund */
 ::-moz-selection {
   background: #aaa;
@@ -369,8 +331,8 @@ a.normal-link:hover:after {
   -webkit-font-smoothing: antialiased;
 }
 .box {
+  padding: 15px 0 0 15px;
   box-sizing: border-box;
-  padding: 15px;
   overflow-x: hidden;
 }
 
@@ -686,38 +648,7 @@ h1 {
   line-height: 5.3vw;
   letter-spacing: -0.2vw;
 }
-.text-xl {
-  font-size: 18vw;
-  line-height: 18vw;
-}
-.text-l {
-  font-size: 9vw;
-  line-height: 8vw;
-  letter-spacing: -0.9vw;
-  font-size: 11vw;
-  line-height: 9vw;
-}
-.text-m {
-  font-size: 5vw;
-  line-height: 4.5vw;
-  letter-spacing: -0.4vw;
-}
-.text-m hr {
-  height: 4.5vw;
-}
-.text-s {
-  font-size: 2.4vw;
-  line-height: 2.4vw;
-  letter-spacing: -0.05vw;
-}
-.text-s hr {
-  height: 2.4vw;
-}
-.text-xs {
-  font-size: 1.4vw;
-  line-height: 1.4vw;
-  letter-spacing: -0.005vw;
-}
+
 .imprint {
   width: 60%;
   bottom: 0;
@@ -917,83 +848,6 @@ body.database ol li span em {
   color: #999;
   font-style: normal;
 }
-.teaser-typeloop {
-  overflow: hidden;
-  position: relative;
-}
-.typeloop {
-  font-size: 26vh;
-  line-height: 23vh;
-  letter-spacing: -0.6vw;
-  position: absolute;
-  white-space: nowrap;
-  overflow: visible;
-}
-.typeloop-2,
-.typeloop-4 {
-  line-height: 22vh;
-}
-.typeloop span {
-  white-space: nowrap;
-  position: relative;
-}
-.typeloop-1 {
-  top: 0vw;
-}
-.typeloop-2 {
-  top: 25vh;
-}
-.typeloop-3 {
-  top: 50vh;
-}
-.typeloop-4 {
-  top: 75vh;
-}
-.typeloop-1 span,
-.typeloop-3 span {
-  -webkit-animation: typeloop-right infinite 20s linear;
-  animation: typeloop-right infinite 20s linear;
-}
-.typeloop-2 span {
-  -webkit-animation: typeloop-left infinite 20s linear;
-  animation: typeloop-left infinite 20s linear;
-}
-.typeloop-4 span {
-  -webkit-animation: typeloop-left infinite 80s linear;
-  animation: typeloop-left infinite 80s linear;
-}
-@-webkit-keyframes typeloop-left {
-  from {
-    left: 0%;
-  }
-  to {
-    left: -50%;
-  }
-}
-@keyframes typeloop-left {
-  from {
-    left: 0%;
-  }
-  to {
-    left: -50%;
-  }
-}
-@-webkit-keyframes typeloop-right {
-  from {
-    left: -50%;
-  }
-  to {
-    left: 0%;
-  }
-}
-@keyframes typeloop-right {
-  from {
-    left: -50%;
-  }
-  to {
-    left: 0%;
-  }
-}
 
 @media (min-width: 755px) {
   .box-repo {
@@ -1060,8 +914,8 @@ body.database ol li span em {
   .text-m hr {
     height: 9.5vw;
   }
-  .text-m-ogg-italic {
-    font-family: "OggLore-Italic";
+  .text-m-genesis {
+    font-family: "Genesis";
     font-size: 22vw;
     line-height: 15vw;
     letter-spacing: -0.9vw;
@@ -1079,11 +933,7 @@ body.database ol li span em {
   .popup-content {
     width: 95%;
   }
-  .teaser-left,
-  .teaser-right {
-    width: 100%;
-    height: 50%;
-  }
+
   p {
     max-width: 100%;
     width: 100%;
@@ -1146,40 +996,6 @@ body.database ol li span em {
     border-bottom: solid 1px transparent !important;
   }
 }
-@media (any-pointer: coarse) {
-  .teaser-typeloop {
-    overflow: hidden;
-    position: relative;
-  }
-  .typeloop {
-    font-size: 23vh;
-    line-height: 25vh;
-    letter-spacing: -0.6vw;
-    position: absolute;
-    white-space: nowrap;
-    overflow: visible;
-  }
-  .typeloop span {
-    white-space: nowrap;
-    position: relative;
-  }
-  .typeloop-2,
-  .typeloop-4 {
-    line-height: 22vh;
-  }
-  .typeloop-1 {
-    top: 0vh;
-  }
-  .typeloop-2 {
-    top: 20vh;
-  }
-  .typeloop-3 {
-    top: 40vh;
-  }
-  .typeloop-4 {
-    top: 60vh;
-  }
-}
 body {
   cursor: url("/images/cursor.svg") 10 10, auto;
 }
@@ -1210,55 +1026,7 @@ button[type="submit"],
   text-align: right;
 }
 
-.f4 {
-  font-size: 0.667rem;
-  font-size: var(--font-4);
-  line-height: 1.25;
-  line-height: var(--line-height-4);
-}
-.mt3 {
-  margin-top: 1rem;
-  margin-top: var(--spacing-3);
-}
-
 .cv {
   margin-top: 1rem;
   margin-top: var(--spacing-3);
-}
-.f5 {
-  font-size: 0.375rem;
-  font-size: var(--font-5);
-  line-height: 1.25;
-  line-height: var(--line-height-5);
-}
-
-.bookstyle {
-  text-indent: 4em;
-}
-
-.btn-back-top {
-  float: right;
-  padding: 5%;
-  z-index: 300; /* Make sure it does not overlap */
-  color: #0c0c0c; /* Text color */
-}
-
-.btn-back-top:hover {
-  cursor: url("/images/cursor-yellow.svg") 10 10, auto;
-}
-
-.btn-back-top:after {
-  content: "";
-  width: 100%;
-  border-bottom: solid 2px #0c0c0c;
-  display: block;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.btn-back-top:hover:after {
-  width: 0;
-  float: right;
-  border-bottom: solid 2px #0c0c0c;
-  transition: all 0.4s;
 }
